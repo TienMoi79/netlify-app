@@ -1,6 +1,16 @@
 .container {
-    margin-left: auto;
-    margin-right: auto;
-    width: 400px;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: 50px auto;
+}
+
+.content {
+    width: 50%;
+}
+
+.avatar-box img {
+    width: 300px;
+    border-radius: 10px;
 }
